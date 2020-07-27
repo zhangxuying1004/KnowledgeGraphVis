@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xmu.vis.mapper.NodeInfoMapper">
+
+    <select id="getNodeInfoByName" resultType="NodeInfo" parameterType="String">
+        select node_info_id, node_type_id, name, attribute_id
+        from node_info
+        where name = #{name}
+    </select>
+
+    <select id="getNodeInfoById" resultType="NodeInfo" parameterType="Integer">
+        select node_info_id, node_type_id, name, attribute_id
+        from node_info
+        where node_info_id = #{id}
+    </select>
+
+    <select id="getNodeNameById" resultType="String" parameterType="Integer">
+        select name
+        from node_info
+        where node_info_id = #{id}
+    </select>
+
+    <update id="updateAttribute" parameterType="NodeInfo">
+        update node_info
+        <trim prefix="set" suffixOverrides=",">
+            <if test="attribute!=null">attribute = #{attribute},</if>
+        </trim>
+        where node_info_id = #{nodeInfoId}
+    </update>
+
+</mapper>

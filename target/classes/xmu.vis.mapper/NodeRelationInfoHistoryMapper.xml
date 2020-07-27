@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xmu.vis.mapper.NodeRelationInfoHistoryMapper">
+
+    <insert id="insertHistory" parameterType="NodeRelationInfoHistory" useGeneratedKeys="false" keyProperty="id" keyColumn="id">
+        insert into node_relation_info_history(node_info_id1, node_info_id2, relation_type_id)
+        values (#{nodeInfoId1}, #{nodeInfoId2}, #{relationTypeId})
+    </insert>
+
+</mapper>

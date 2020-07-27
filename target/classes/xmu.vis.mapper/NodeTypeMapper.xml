@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xmu.vis.mapper.NodeTypeMapper">
+
+    <select id="getNodeTypeByNodeTypeId" parameterType="Integer" resultType="NodeType">
+        select node_type_id, name, attribute_table_name, pid
+        from node_type
+        where node_type_id = #{nodeTypeId}
+    </select>
+
+    <select id="getNodeTypeByName" parameterType="String" resultType="NodeType">
+        select node_type_id, name, attribute_table_name, pid
+        from node_type
+        where name = #{name}
+    </select>
+
+    <select id="getTableNameByNodeTypeId" parameterType="Integer" resultType="String">
+        select attribute_table_name from node_type
+        where node_type_id=#{nodeTypeId}
+    </select>
+    
+    <insert id="insertNodeType" parameterType="NodeType">
+        insert into node_type (name, attribute_table_name, pid)
+        values (#{name},#{attributeTableName},#{pid});
+    </insert>
+
+    <select id="getAllNodeType" resultType="NodeType">
+        select node_type_id, name, attribute_table_name, pid
+        from node_type
+    </select>
+
+    <select id="getRootNode" resultType="NodeType">
+        select node_type_id, name, attribute_table_name, pid
+        from node_type
+        where pid = node_type_id
+    </select>
+
+    <delete id="deleteNodeType" parameterType="String">
+        delete from node_type
+        where name=#{name}
+    </delete>
+
+</mapper>

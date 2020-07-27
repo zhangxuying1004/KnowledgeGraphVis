@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xmu.vis.mapper.NodeRelationInfoMapper">
+
+    <select id="getNodeRelationByNode1" parameterType="Integer" resultType="NodeRelationInfo">
+        select id, node_info_id1, node_info_id2, relation_type_id
+        from node_relation_info
+        where node_info_id1 = #{node1}
+    </select>
+
+    <select id="getNode1ByNode2" parameterType="Integer" resultType="Integer">
+        select node_info_id1
+        from node_relation_info
+        where node_info_id2 = #{node2}
+    </select>
+
+    <select id="getNodeRelationByNode12" parameterType="Integer" resultType="NodeRelationInfo">
+        select id, node_info_id1, node_info_id2, relation_type_id
+        from node_relation_info
+        where node_info_id1 = #{node1} and node_info_id2 = #{node2}
+    </select>
+
+    <update id="updateRelation" parameterType="Integer">
+        update node_relation_info set
+            node_info_id2 = #{node2}
+        where id = #{id}
+    </update>
+
+</mapper>

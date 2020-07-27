@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="KnowledgeGraphVis-mysql:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5be4674e-41dd-46f0-9b89-fa4c199167d9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DevPartner.ProjectWorkspace">
+    <option name="runtimeAnalysisType" value="-1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="XML File" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/JetBrains/ideaMaven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\JetBrains\ideaMaven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cq0pUFM69dx7uveOBsjVO6Aw6X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="xmu.vis.service" />
+      <recent name="xmu.vis.mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NodeInfoMapperTest.getNodeInfoById">
+    <configuration name="VisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xmu.vis.VisApplication" />
+      <module name="KnowledgeGraphVis-mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xmu.vis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AttributeMapperTest.getAttributeById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KnowledgeGraphVis-mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xmu.vis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xmu.vis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="xmu.vis.mapper.AttributeMapperTest" />
+      <option name="METHOD_NAME" value="getAttributeById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodeInfoMapperTest.getNodeInfoById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KnowledgeGraphVis-mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xmu.vis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xmu.vis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="xmu.vis.mapper.NodeInfoMapperTest" />
+      <option name="METHOD_NAME" value="getNodeInfoById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisServiceTest.getNodeNameByFatherNodeAndRelation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KnowledgeGraphVis-mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xmu.vis.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xmu.vis.service" />
+      <option name="MAIN_CLASS_NAME" value="xmu.vis.service.VisServiceTest" />
+      <option name="METHOD_NAME" value="getNodeNameByFatherNodeAndRelation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="KnowledgeGraphVis-mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xmu.vis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xmu.vis.VisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NodeInfoMapperTest.getNodeInfoById" />
+        <item itemvalue="JUnit.VisServiceTest.getNodeNameByFatherNodeAndRelation" />
+        <item itemvalue="Spring Boot.VisApplication" />
+        <item itemvalue="Application.VisApplication" />
+        <item itemvalue="JUnit.AttributeMapperTest.getAttributeById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5be4674e-41dd-46f0-9b89-fa4c199167d9" name="Default Changelist" comment="" />
+      <created>1591240998492</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591240998492</updated>
+      <workItem from="1591241002347" duration="1476000" />
+      <workItem from="1591257212666" duration="57000" />
+      <workItem from="1591345181455" duration="10453000" />
+      <workItem from="1591409034014" duration="15079000" />
+      <workItem from="1591429682702" duration="615000" />
+      <workItem from="1591489589582" duration="5250000" />
+      <workItem from="1591549820978" duration="5070000" />
+      <workItem from="1591577792744" duration="1486000" />
+      <workItem from="1591586252259" duration="329000" />
+      <workItem from="1591615803419" duration="816000" />
+      <workItem from="1591756386094" duration="3611000" />
+      <workItem from="1591772707224" duration="516000" />
+      <workItem from="1591806928710" duration="4412000" />
+      <workItem from="1591843793938" duration="12862000" />
+      <workItem from="1591868229283" duration="303000" />
+      <workItem from="1591875662069" duration="3015000" />
+      <workItem from="1591882924403" duration="1900000" />
+      <workItem from="1591965057073" duration="5904000" />
+      <workItem from="1591973664031" duration="639000" />
+      <workItem from="1592013092030" duration="862000" />
+      <workItem from="1592019456308" duration="2310000" />
+      <workItem from="1592041296329" duration="158000" />
+      <workItem from="1593574391222" duration="2019000" />
+      <workItem from="1594440542523" duration="2706000" />
+      <workItem from="1594481400945" duration="1454000" />
+      <workItem from="1594515708996" duration="10626000" />
+      <workItem from="1594528474593" duration="258000" />
+      <workItem from="1594528752347" duration="357000" />
+      <workItem from="1594529128139" duration="382000" />
+      <workItem from="1594529527873" duration="16000" />
+      <workItem from="1594560697746" duration="998000" />
+      <workItem from="1594561719757" duration="255000" />
+      <workItem from="1594561994848" duration="4142000" />
+      <workItem from="1594632314966" duration="1293000" />
+      <workItem from="1594801863084" duration="836000" />
+      <workItem from="1594810009066" duration="473000" />
+      <workItem from="1594882740278" duration="159000" />
+      <workItem from="1594892440617" duration="1253000" />
+      <workItem from="1595081775254" duration="41211000" />
+      <workItem from="1595388275143" duration="1797000" />
+      <workItem from="1595551581083" duration="3079000" />
+      <workItem from="1595728103835" duration="5929000" />
+      <workItem from="1595843057272" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="302" y="33" key="#Project_Structure" timestamp="1594481242540">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1591241027830" />
+    <state x="302" y="33" key="#Project_Structure/0.0.1500.960@0.0.1500.960" timestamp="1594481242540" />
+    <state x="48" y="122" width="816" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595730681963">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="268" y="55" width="816" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591347012415" />
+    <state x="-1859" y="631" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595249031568" />
+    <state x="48" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1595730681963" />
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1591969603717">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1591969603717" />
+    <state x="-1323" y="634" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1595251365481">
+      <screen x="-1920" y="499" width="1920" height="1040" />
+    </state>
+    <state x="-1323" y="634" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595251365481" />
+    <state x="-1347" y="849" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595249403346">
+      <screen x="-1920" y="499" width="1920" height="1040" />
+    </state>
+    <state x="-1347" y="849" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595249403346" />
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591550949634">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591550949634" />
+    <state x="168" y="253" key="FileChooserDialogImpl" timestamp="1595843091424">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="462" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593576057167" />
+    <state x="168" y="253" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1595843091424" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1595329115196">
+      <screen x="-1920" y="499" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="49" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592021768205" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595329115196" />
+    <state width="1458" height="256" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1595234994429" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1595329115196">
+      <screen x="-1920" y="499" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="49" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592021768205" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595329115196" />
+    <state width="1458" height="256" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1595234994429" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1595329115196">
+      <screen x="-1920" y="499" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="49" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592021768205" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595329115196" />
+    <state width="1458" height="256" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1595234994429" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1595329115196">
+      <screen x="-1920" y="499" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="49" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592021768205" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595329115196" />
+    <state width="1458" height="256" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1595234994429" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1595329115196">
+      <screen x="-1920" y="499" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="202" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591971309167" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595329115196" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1595329115196">
+      <screen x="-1920" y="499" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="202" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591971309167" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595329115196" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1595329115196">
+      <screen x="-1920" y="499" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="202" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591971309167" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595329115196" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1595329115196">
+      <screen x="-1920" y="499" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="202" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591971309167" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595329115196" />
+    <state x="252" y="125" key="SettingsEditor" timestamp="1595843101472">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="-1597" y="634" key="SettingsEditor/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595249646499" />
+    <state x="252" y="125" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1595843101472" />
+    <state x="481" y="285" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1594529474960">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="481" y="285" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1500.960@0.0.1500.960" timestamp="1594529474960" />
+    <state x="534" y="298" width="431" height="361" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1594561821345">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="534" y="298" width="431" height="361" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1500.960@0.0.1500.960" timestamp="1594561821345" />
+    <state x="-762" y="766" width="459" height="371" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1595241404405">
+      <screen x="-1920" y="499" width="1920" height="1040" />
+    </state>
+    <state x="-762" y="766" width="459" height="371" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595241404405" />
+    <state x="905" y="246" width="406" height="522" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1500.960@0.0.1500.960" timestamp="1594565249429" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1593574433959">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593574433959" />
+    <state x="-1282" y="616" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595251400920">
+      <screen x="-1920" y="499" width="1920" height="1040" />
+    </state>
+    <state x="454" y="82" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1591854266286" />
+    <state x="-1282" y="616" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1500.960/-1920.499.1920.1040@-1920.499.1920.1040" timestamp="1595251400920" />
+    <state x="57" y="68" key="new project wizard" timestamp="1593576069044">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="68" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1593576069044" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1592020738147">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1592020738147" />
+    <state x="381" y="66" width="738" height="895" key="search.everywhere.popup" timestamp="1594563301444">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591357265672" />
+    <state x="381" y="66" width="738" height="895" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1594563301444" />
+  </component>
+</project>

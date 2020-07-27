@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xmu.vis.mapper.TextInfoMapper">
+
+    <insert id="insertText" parameterType="TextInfo" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+        insert into text_info(content)
+        values (#{content})
+    </insert>
+
+    <select id="getTextInfoById" parameterType="Integer" resultType="TextInfo">
+        select id, content, extract_node1, extract_relation, extract_node2, status, text_create_time, text_update_time
+        from text_info
+        where id = #{id}
+    </select>
+
+    <update id="updateTextInfo" parameterType="TextInfo">
+        update text_info
+        <trim prefix="set" suffixOverrides=",">
+            <if test="extractNode1!=null">extract_node1 = #{extractNode1},</if>
+            <if test="extractRelation!=null">extract_relation = #{extractRelation},</if>
+            <if test="extractNode2!=null">extract_node2 = #{extractNode2},</if>
+            <if test="textUpdateTime!=null">text_update_time = current_timestamp(),</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <update id="updateTextStatus" parameterType="Integer">
+        update text_info set
+            status = #{status},
+            text_update_time = current_timestamp()
+        where id = #{id}
+    </update>
+
+    <select id="getAllText" resultType="TextInfo">
+        select id, content, extract_node1, extract_relation, extract_node2, status, text_create_time, text_update_time
+        from text_info
+        where status = 0
+    </select>
+
+    <select id="test" parameterType="Integer" resultType="Integer">
+        select id
+        from text_info
+        where status = status
+    </select>
+
+</mapper>
